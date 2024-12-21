@@ -1,0 +1,169 @@
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #fc9c02;
+}
+
+.flex{
+    display: flex;
+}
+
+.logo{
+    width: 250px;
+}
+
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #fc9c02;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+    font-size: 25px;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.08);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 35px;
+}
+
+ .btn-contato button{
+    padding: 12px 45px;
+    font-size: 19px;
+    font-weight: 700px;
+    background-color: #fc9c02;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+ 
+
+section.topo{
+    padding: 40px 4%;
+}
+
+section.topo .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo h1{
+    color: white;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo h1 span{
+    color: #fc9c02;
+    font-size: 70px;
+}
+
+.topo p {
+    color: #fff;
+    margin: 40px 0;
+}
+
+.topo .img-topo-site img {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    width: 400px;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+button { background-color: #4CAF50;
+     border: none;
+      color: white;
+       padding: 15px 32px;
+        text-align: center;
+         text-decoration: none;
+          display: inline-block;
+           font-size: 16px; margin: 4px 2px; 
+           transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+ button:hover { background-color: #886619; 
+    transform: scale(1.08);
+    transition: .2s;
+    box-shadow: 2px 4px 8px 2px rgba(247, 189, 83, 0.5);
+}
+
+/* especialidades*/
+
+section.especialidades{
+    padding: 40px 4%;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+.especialidades .especialidades-box { 
+    color: #fff;
+     padding: 40px;
+     border-radius: 20px;
+      margin-top: 45px;
+       transition: transform 0.2s, box-shadow 0.2s;
+    
+ }
+  .especialidades .especialidades-box:hover { 
+    transform: scale(1.08);
+     box-shadow: 0 0 20px rgba(255, 255, 255, 0.459);
+     }
+
+.especialidades .especialidades-box i{
+    font-size: 70px;
+    color: #fc9c02;
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
